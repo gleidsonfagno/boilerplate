@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
@@ -6,9 +7,7 @@ type Props = {
   title: string
 }
 
-const bla = '2'
-
-export default function Home({ title = ' React Avaçado' }: Props) {
+export default function Home({ title = 'React Avaçado' }: Props) {
   return (
     <div className={styles.container}>
       <Head>

@@ -57,3 +57,5 @@ npm install --save-dev husky
 # passo 2
 npx husky init
 ```
+
+instalando e configurando o Jest com TypeScript
