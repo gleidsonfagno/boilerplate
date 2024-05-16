@@ -91,4 +91,4 @@ import '@testing-library/jest-dom'
 npm test --watch
 ```
 
-122
+retonarnod e configurando
