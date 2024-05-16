@@ -10,21 +10,13 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*": [
-      "npm run lint --fix",
-      "npm test --bail"
-    ]
-  },
   "dependencies": {
+    "@types/styled-components": "^5.1.34",
+    "babel-plugin-styled-components": "^2.1.4",
     "next": "14.2.3",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.24.1",

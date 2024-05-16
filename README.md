@@ -92,3 +92,27 @@ npm test --watch
 ```
 
 retonarnod e configurando
+
+```javascript
+"husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "npm run lint --fix",
+      "npm test --bail"
+    ]
+  },
+// removido do arquivo packeg.json
+```
+
+Instalando o Styled Components e configurando o SSR
+
+```bash
+npm install styled-components
+
+npm install --save--dev @types/styled-components babel-plugin-styled-components
+
+```
