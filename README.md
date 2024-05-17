@@ -116,3 +116,5 @@ npm install styled-components
 npm install --save--dev @types/styled-components babel-plugin-styled-components
 
 ```
+
+Módulo 1 Criando Boilerplate do NextJS finalizado
