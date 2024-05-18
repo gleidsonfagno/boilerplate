@@ -148,4 +148,9 @@ tem que instalar
 
 npm install --dev storybook/preset-typescript
 npm install @storybook/addon-knobs --dev
+
+npm uninstall --save-dev @storybook/addon-knobs
+
 ```
+
+Migrando Storybook para versão 6.x
