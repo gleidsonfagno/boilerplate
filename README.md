@@ -124,3 +124,28 @@ Criando estilos no primeiro componente
 ```bash
 
 ```
+
+00:18:30 15. Configurando o Storybook e escrevendo stories
+
+```bash
+npx storybook@latest init
+
+npm install --dev storybook/preset-typescript
+```
+
+no packege.json
+
+```javascript
+"storybook": "storybook dev s- ./public -p 6006",
+
+mp arquivo main.ts
+'../src/**/*.mdx',
+```
+
+tem que instalar
+
+```bash
+
+npm install --dev storybook/preset-typescript
+npm install @storybook/addon-knobs --dev
+```
