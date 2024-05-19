@@ -162,3 +162,17 @@ Migrando Storybook para versão 6.x
     "@storybook/addon-links": "7.6.10",
 
 ```
+
+Configurando o PWA
+
+```javascript
+npm install next-pwa
+npm install webpack@latest
+
+configurar o next
+
+$env:NODE_ENV="production"; npm run build
+
+```
+
+Iniciando um projeto através do nosso boilerplate
