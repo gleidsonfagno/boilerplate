@@ -154,3 +154,11 @@ npm uninstall --save-dev @storybook/addon-knobs
 ```
 
 Migrando Storybook para versão 6.x
+
+```javascript
+// nao precisa desses pluguin na vai ser usado
+"@storybook/addon-interactions": "7.6.10",
+    "@storybook/addon-knobs": "^7.0.2",
+    "@storybook/addon-links": "7.6.10",
+
+```
