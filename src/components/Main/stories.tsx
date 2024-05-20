@@ -17,15 +17,15 @@ export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'Defalt react',
-    description: 'defalt'
+    title: 'React avançado',
+    description: 'TypeScript, ReactJS, NextJS e Styled Components'
   }
 } as Meta
 
-export const Basic: Story = (args) => <Main {...args} />
-Basic.args = {
-  title: 'Title Basic',
-  description: 'Description Basic'
-}
+// export const Basic: Story = (args) => <Main {...args} />
+// Basic.args = {
+//   title: 'Title Basic',
+//   description: 'Description Basic'
+// }
 
 export const Desfault: Story = (args) => <Main {...args} />

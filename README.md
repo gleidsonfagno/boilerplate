@@ -177,4 +177,11 @@ $env:NODE_ENV="production"; npm run build
 
 Iniciando um projeto através do nosso boilerplate
 
-teste
+Atualizando story book
+
+```bash
+npm run build-storybook
+
+npx http-server ./path/to/build
+
+```
