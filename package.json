@@ -13,6 +13,15 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint"
+  },
+
+"husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint-staged"
+    }
+  },
   "dependencies": {
     "@types/styled-components": "^5.1.34",
     "babel-plugin-styled-components": "^2.1.4",
