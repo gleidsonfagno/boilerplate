@@ -11,13 +11,13 @@
     "prepare": "husky install",
     "test:watch": "jest --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "generate": "npx plop --plopfile generators/plopfile.js"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": "eslint"
   },
-
-"husky": {
+  "husky": {
     "hooks": {
       "pre-commit": "yarn run lint-staged"
     }
@@ -47,6 +47,7 @@
     "@types/react": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.8.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.1.0",
@@ -60,6 +61,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-styled-components": "^7.2.0",
     "lint-staged": "^15.2.2",
+    "plop": "^2.7.4",
     "prettier": "3.2.5",
     "storybook": "7.6.10",
     "typescript": "^5.4.5",

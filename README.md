@@ -177,6 +177,10 @@ $env:NODE_ENV="production"; npm run build
 
 Iniciando um projeto através do nosso boilerplate
 
+```bash
+npx create-next-app nome-do-seu-projeto -e https://github.com/gleidsonfagno/boilerplate
+```
+
 Atualizando story book
 
 ```bash
@@ -184,4 +188,24 @@ npm run build-storybook
 
 npx http-server ./path/to/build
 
+```
+
+configurando plop
+
+```bash
+# 1 instalacao
+npm uninstall plop
+```
+
+configuraçao no packege .js
+
+```javascript
+"generate": "npx run plop --plopfile ./generate/plopfile.js",
+
+```
+
+rodA comando
+
+```bash
+npm run generate
 ```
