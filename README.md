@@ -204,7 +204,7 @@ configuraçao no packege .js
 
 ```
 
-rodA comando
+roda comando
 
 ```bash
 npm run generate
